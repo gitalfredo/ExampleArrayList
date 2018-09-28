@@ -90,7 +90,7 @@ public class StudentDriver {
     public void display(){
         // Print to screen, sorted by name
         System.out.println("Displaying students, sorted by name");
-        System.out.println(String.format("%-2s %-8s %s", "Id", "Name", "Courses"));
+        System.out.println(String.format("%-3s %-10s %s", "Id", "Name", "Courses"));
         for (Student student : customers) {
             System.out.println(student);    //Uses string representation of Student class (toString())
         }
